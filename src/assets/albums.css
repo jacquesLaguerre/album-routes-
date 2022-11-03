@@ -1,0 +1,16 @@
+.album-list {
+    border: 2px solid gold;
+    margin: calc(1rem + 1vw);
+    background-color: #ffc00030;
+  }
+  
+  .album-card {
+    border: 2px solid grey;
+    margin: 1rem;
+    background-color: rgb(197, 255, 253);
+  }
+  
+  .album-title {
+    text-transform: uppercase;
+    color: #605040;
+  }

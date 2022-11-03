@@ -1,0 +1,40 @@
+@import 'variables.css';
+@import 'albums.css';
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  :root{
+    --rosy-red: #ff000030;
+    --hot-red: var var(--hot-red)
+    
+    }
+    
+    
+    .App {
+      text-align: center;
+    }
+    
+    .header {
+      border: 2px solid red;
+      margin: calc(1rem + 1vw);
+      background-color: #ff000030;
+    }
+    
+    
+    
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
